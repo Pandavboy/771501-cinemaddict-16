@@ -1,7 +1,7 @@
 # Проект «Киноман»
 
 * Студент: [Богдан Кинщак](https://up.htmlacademy.ru/ecmascript/16/user/771501).
-* Наставник: `Неизвестно`.
+* Наставник: `Дмитрий Железцов`(https://htmlacademy.ru/profile/sench).
 
 ---
 
