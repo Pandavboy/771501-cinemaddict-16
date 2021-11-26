@@ -7,6 +7,7 @@ import {createTopCommentTemplate} from './view/top-comment-movies-view.js';
 import {createFilmCardsTemplate} from './view/content-movies-view.js';
 import {createShowMoreButtonTemplate} from './view/show-more-button-view.js';
 import {createFooterStatsTamplate} from './view/footer-stats-view.js';
+import {popupTemplate} from './view/popup-view.js';
 
 const siteHeaderElement = document.querySelector('.header');
 const siteHeaderLogoElement = siteHeaderElement.querySelector('.header__logo');
@@ -23,6 +24,7 @@ renderTemplate(siteMainElement, createNavigationMenuTemplate(), RenderPosition.B
 renderTemplate(siteMainElement, createSortMoviesTemplate(), RenderPosition.BEFOREEND);
 renderTemplate(siteMainElement, createTopRatedMoviesTemplate(), RenderPosition.BEFOREEND);
 renderTemplate(siteFooterStats, createFooterStatsTamplate(), RenderPosition.BEFOREEND);
+renderTemplate(siteFooterElement, popupTemplate(), RenderPosition.AFTEREND);
 
 
 const siteFilmCard = siteMainElement.querySelector('.films-list__container');
